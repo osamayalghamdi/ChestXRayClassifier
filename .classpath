@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="javaProject/lib/mysql-connector-j-8.3.0 (1)/mysql-connector-j-8.3.0/src/build/java"/>
+	<classpathentry kind="src" path="javaProject/lib/mysql-connector-j-8.3.0 (1)/mysql-connector-j-8.3.0/src/demo/java"/>
+	<classpathentry kind="src" path="javaProject/lib/mysql-connector-j-8.3.0 (1)/mysql-connector-j-8.3.0/src/generated/java"/>
+	<classpathentry kind="src" path="javaProject/lib/mysql-connector-j-8.3.0 (1)/mysql-connector-j-8.3.0/src/legacy/java"/>
+	<classpathentry kind="src" path="javaProject/lib/mysql-connector-j-8.3.0 (1)/mysql-connector-j-8.3.0/src/main/core-api/java"/>
+	<classpathentry kind="src" path="javaProject/lib/mysql-connector-j-8.3.0 (1)/mysql-connector-j-8.3.0/src/main/core-impl/java"/>
+	<classpathentry kind="src" path="javaProject/lib/mysql-connector-j-8.3.0 (1)/mysql-connector-j-8.3.0/src/main/protocol-impl/java"/>
+	<classpathentry kind="src" path="javaProject/lib/mysql-connector-j-8.3.0 (1)/mysql-connector-j-8.3.0/src/main/user-api/java"/>
+	<classpathentry kind="src" path="javaProject/lib/mysql-connector-j-8.3.0 (1)/mysql-connector-j-8.3.0/src/main/user-impl/java"/>
+	<classpathentry kind="src" path="javaProject/lib/mysql-connector-j-8.3.0 (1)/mysql-connector-j-8.3.0/src/test/java"/>
+	<classpathentry kind="src" path="javaProject/src"/>
+	<classpathentry kind="lib" path="javaProject/lib/jar_files (1)/json-1.1.jar"/>
+	<classpathentry kind="lib" path="javaProject/lib/jar_files (1)/json-20180813.jar"/>
+	<classpathentry kind="lib" path="javaProject/lib/jar_files (1)/rest-1.1.jar"/>
+	<classpathentry kind="lib" path="javaProject/lib/jar_files (1)/rest-1.1-tests.jar"/>
+	<classpathentry kind="lib" path="javaProject/lib/mysql-connector-j-8.3.0 (1)/mysql-connector-j-8.3.0/mysql-connector-j-8.3.0.jar"/>
+	<classpathentry kind="output" path="javaProject/out/production/javaProject"/>
+</classpath>

@@ -1,0 +1,24 @@
+import requests
+
+# URL of your Flask API
+url = 'http://127.0.0.1:5000/predict'
+
+# Path to the image file you want to send
+image_path = 'D:/IT/Smesters/th5_SMESTER/305/Medi/PROJECT_TEST_NEW/PROJECT_TEST/archive/chest_xray/train/NORMAL/IM-0151-0001.jpeg'
+
+# Create JSON data containing the image path
+data = {'image_path': image_path}
+
+# Send a POST request to the Flask API with the JSON data
+response = requests.post(url, json=data)
+
+# Check the response from the server
+if response.status_code == 200:
+    print('Prediction result:', response.json()['result'])
+    print('Probability:', response.json().get('probability', 'N/A'))
+else:
+    print('Error:', response.text)
+
+
+#model = tf.keras.models.load_model("D:/IT/Smesters/th5_SMESTER/305/PROJECT_TEST/save_model_complate.h5")
+

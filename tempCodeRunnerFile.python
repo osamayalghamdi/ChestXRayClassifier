@@ -1,0 +1,17 @@
+import requests
+import json
+
+# URL of your Flask application
+url = "http://localhost:5000/predict"
+
+# Path of the image
+image_path = "D:/IT/Smesters/th5_SMESTER/305/Medi/PROJECT_TEST_NEW/PROJECT_TEST/archive/chest_xray/test/NORMAL/IM-0003-0001.jpeg"
+
+# Create the request body
+data = json.dumps({'image_path': image_path})
+
+# Send the POST request
+response = requests.post(url, data=data, headers={'Content-Type': 'application/json'})
+
+# Print the response
+print(response.json())
