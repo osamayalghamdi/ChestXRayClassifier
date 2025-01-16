@@ -1,8 +1,3 @@
-# ChestXRayClassifier
-Collecting workspace information
-
-Filtering to most relevant information
-
 # Medical Image Analysis System
 
 This project is a medical image analysis system that integrates a Flask-based web service with a Java application to predict pneumonia from chest X-ray images.
